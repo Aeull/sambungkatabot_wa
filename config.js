@@ -1,8 +1,8 @@
 let fs = require('fs')
-global.owner = ['6283196162908'] // Put your number here
+global.owner = ['6285822347348'] // Put your number here
 global.link = JSON.parse(fs.readFileSync('./src/grouplink.json'))
 global.group = link.map((v, i) => `Group ${i + 1}\n${v}`).join('\n\n')
-global.wm = '© _*By @syahrul_idh*_'
+global.wm = '© _*By @Arull*_'
 const moment = require('moment-timezone')
 
 global.multiplier = 69 // The higher, The harder levelup
